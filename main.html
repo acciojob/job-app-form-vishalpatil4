@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Job app form</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<label for="name">Name</label>
+	<input type="text" name="name" width="required">
+	<br /><br />
+	<label for="email">Email</label>
+	<input type="text" name="email" width="required">
+	<br /><br />
+	<form >
+		Gender <br>
+		<input type="radio" name="gender" > male
+		<input type="radio" name="gender" > female
+	</form>
+	<br>
+	<label for="laptop">laptop brands</label>
+	
+	<select name="laptop" id="laptop" select>
+		
+		<option value="Apple">Apple</option>
+		<option value="Asus">Asus</option>
+		<option value="HP">HP</option>
+	</select>
+	<br /><br /> 
+	<label for="age">Age</label>
+	<input type="text" name="age" width="required">
+	<br /><br /> 
+	<label for="DOB">DOB</label>
+	<input type="text" name="dob" width="required">
+	<br /><br /> 
+	<button id="btn">submit</button>
+
 
 </body>
-
 </html>
